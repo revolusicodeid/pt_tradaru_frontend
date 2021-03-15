@@ -4,10 +4,56 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+ul.navigation {
+  list-style-type: none;
+}
+
+.navigation li{
+  margin: 1rem 2rem;
+}
+
+.navigation li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content {
+  padding: 2rem 2rem;
+}
+
+.content-header {
+  background: #2c2c2c;
+  color: #e9e9e9;
+  padding: 0.5rem 1rem;
+}
+
+.content-body {
+  background: #eee;
+  color: #000;
+  padding : 1rem 1rem;
+}
+
+.content-body .task-result{
+  background: rgba(255,255,255,0.5);
+  border: 0.2rem solid white;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.text-result {
+  color: rgba(110, 19, 19, 0.61);
 }

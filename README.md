@@ -1,3 +1,7 @@
+## Download
+<a href="https://github.com/revolusicodeid/pt_tradaru_frontend.git">Download Repository</a>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
